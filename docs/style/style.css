@@ -1,0 +1,15 @@
+/* General Style Sheet */
+
+html {
+    font-family: sans-serif;
+   }
+   
+body{
+    background-color: #333333;
+    color: #ffffff;
+    margin:0;
+   }
+   
+img {
+    margin: auto auto;
+   }
