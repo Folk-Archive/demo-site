@@ -13,17 +13,10 @@ jobs:
       - name: Folk Archive
         id: builder
         uses: Folk-Archive/archive-actions@test
-        
-      - name: Build with Pages
-        run: |
-          cd site
-          npm install
-          npm run build
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1.0.4
-        with:
-          name: site
-          path: ./site/_site
+
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
   
   # Deployment job
   deploy:
@@ -36,7 +29,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
