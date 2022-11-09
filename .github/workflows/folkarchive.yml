@@ -13,6 +13,11 @@ jobs:
       - name: Folk Archive
         id: builder
         uses: Folk-Archive/archive-actions@test
+      - name: build
+        run: |
+          cd site
+          npm install
+          npm run build
 
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
