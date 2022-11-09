@@ -1,0 +1,17 @@
+on: [push]
+
+permissions: write-all
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    name: Build archive
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Folk Archive
+        id: builder
+        uses: Folk-Archive/archive-actions@test
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
