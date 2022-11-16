@@ -12,13 +12,12 @@ jobs:
           fetch-depth: 0
       - name: Folk Archive
         id: builder
-        uses: Folk-Archive/archive-actions@v0.1.1
+        uses: Folk-Archive/archive-actions@v0.1.0
       - name: build
         run: |
           cd site
           npm install
           npm run build
-
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
