@@ -1,0 +1,34 @@
+on: [push]
+
+permissions: write-all
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    name: Build archive
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Folk Archive
+        id: builder
+        uses: Folk-Archive/archive-actions@v0.1.0
+      - name: build
+        run: |
+          cd site
+          npm install
+          npm run build
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
