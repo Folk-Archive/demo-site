@@ -13,6 +13,11 @@ jobs:
       - name: Folk Archive
         id: builder
         uses: Folk-Archive/archive-actions@v0.1.7
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1.0.4
+        with:
+          name: site
+          path: ./site
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
