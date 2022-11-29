@@ -12,7 +12,7 @@ jobs:
           fetch-depth: 0
       - name: Folk Archive
         id: builder
-        uses: Folk-Archive/archive-actions@v0.1.6
+        uses: Folk-Archive/archive-actions@v0.1.7
       - name: build
         run: |
           cd site
