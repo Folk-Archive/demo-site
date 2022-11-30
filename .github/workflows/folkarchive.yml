@@ -12,7 +12,7 @@ jobs:
           fetch-depth: 0
       - name: Folk Archive
         id: builder
-        uses: Folk-Archive/archive-actions@v0.1.8
+        uses: Folk-Archive/archive-actions@v0.1.9
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1.0.4
         with:
