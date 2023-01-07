@@ -12,11 +12,11 @@ jobs:
           fetch-depth: 0
       - name: Folk Archive
         id: builder
-        uses: Folk-Archive/archive-actions@v0.2.0
+        uses: Folk-Archive/archive-actions@v0.2.1
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1.0.4
         with:
-          path: ./site
+          path: ./theme
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
