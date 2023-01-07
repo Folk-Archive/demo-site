@@ -5,7 +5,7 @@
     <title> Asmat Wooden Sculpture</title> <!--A name given to the resource.-->
     <date>Spring 2019</date> <!--A point or period of time associated with an event in the lifecycle of the resource.-->
 
-    <Image><img src="../media/AC00002-display.jpg"></img></Image> <!--	A visual representation other than text.-->
+    <Image>../media/AC00002-display.jpg" alt="Wooden Sculpture installed in a library</Image> <!--	A visual representation other than text.-->
     <description> A Southeast Asian wooden sculpture with aspects of Asmat design that may have been created by a woodcarver likely from Jakarta or Bali.
         </description> <!-- An account of the resource. May include an abstract, table of contents, graphical representationm or a free-text account of the resource. -->
 
