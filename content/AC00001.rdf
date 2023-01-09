@@ -5,7 +5,7 @@
     <title>Folkenroth's Comprehensive Project</title> <!--A name given to the resource.-->
     <date>Spring-Fall 2022</date> <!--A point or period of time associated with an event in the lifecycle of the resource.-->
 
-    <Image>../../content/media/AC00001-logo.png" alt="Folk Archive Logo</Image> <!--	A visual representation other than text.-->
+    <Image>../style/media/AC00001-logo.png" alt="Folk Archive Logo</Image> <!--	A visual representation other than text.-->
     <description> An undergraduate senior project with a public deliverable and a composition.
         </description> <!-- An account of the resource. May include an abstract, table of contents, graphical representationm or a free-text account of the resource. -->
 
