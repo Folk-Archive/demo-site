@@ -12,12 +12,12 @@
     <type>Physical Object</type> <!--The nature or genre of the resource. ()-->
     <format>multi-medium</format> <!--The file format, physical medium, or dimensions of the resource.-->
     <PhyscialMedium>Paper and code</PhyscialMedium><!--A physical material or carrier. Examples include paper, canvas, or DVD.-->
-    <Location>dSpace</Location><!--A spatial region or named place.-->
+    <Location>dSpace and Github</Location><!--A spatial region or named place.-->
 
     <subject>Global Health Studies and Integrative Informatics</subject> <!--A topic of the resource.-->
     <coverage>GHS; INFM</coverage> <!--The spatial or temporal topic of the resource, spatial applicability of the resource, or jurisdiction under which the resource is relevant.-->
         <spatial>Allegheny College</spatial>
-        <temporal>2022</temporal>
+        <temporal>2023</temporal>
 
     <source>Kate Folkenroth</source> <!--A related resource from which the described resource is derived.-->
     <creator>Kate Folkenroth</creator> <!--An entity responsible for making the resource.-->
@@ -27,7 +27,7 @@
     <rights></rights> <!--Information about rights held in and over the resource. Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights.-->
     <language>en</language> <!--A language of the resource.-->
 
-    <relation><a src="AC00002.rdf">Kamoro Wooden Sculpture</a></relation> <!--A related resource.-->
+    <relation><a src="AC00002.rdf">Wooden Sculpture</a></relation> <!--A related resource.-->
     <relation><a src="https://github.com/Folk-Archive">Folk Archive</a></relation> <!--A related resource.-->
     <relation><a src="https://github.com/folkenrothk/composition">Folkenroth's Composition</a></relation> <!--A related resource.-->
   </metadata>

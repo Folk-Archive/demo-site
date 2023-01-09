@@ -2,15 +2,15 @@
 <rdf xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata>
     <identifier>AC00002</identifier> <!--An unambiguous reference to the resource within a given context.-->
-    <title> Asmat Wooden Sculpture</title> <!--A name given to the resource.-->
+    <title> Wooden Sculpture</title> <!--A name given to the resource.-->
     <date>Spring 2019</date> <!--A point or period of time associated with an event in the lifecycle of the resource.-->
 
-    <Image>../style/media/AC00002-display.jpg" alt="Wooden Sculpture installed in a library</Image> <!--	A visual representation other than text.-->
+    <Image>../style/media/AC00002-display.jpg" alt="Wooden Sculpture installed in Pelletier library</Image> <!--	A visual representation other than text.-->
     <description> A Southeast Asian wooden sculpture with aspects of Asmat design that may have been created by a woodcarver likely from Jakarta or Bali.
         </description> <!-- An account of the resource. May include an abstract, table of contents, graphical representationm or a free-text account of the resource. -->
 
     <type>Physical Object</type> <!--The nature or genre of the resource. ()-->
-    <format>Wooden Pole</format> <!--The file format, physical medium, or dimensions of the resource.-->
+    <format>Wooden Sculpture</format> <!--The file format, physical medium, or dimensions of the resource.-->
     <PhyscialMedium>Wood, shells, beads, dried grasses, and pigments of red, white and black </PhyscialMedium><!--A physical material or carrier. Examples include paper, canvas, or DVD.-->
     <Location>Pelletier Library</Location><!--A spatial region or named place; location placed-->
 
