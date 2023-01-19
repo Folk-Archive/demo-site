@@ -90,3 +90,21 @@ img {
 
 }
 
+
+
+/* Footer */
+
+footer {
+    align-items: right;
+}
+
+
+/* Create media query */
+
+@media only screen and (max-width: 1024px) {
+
+    body {
+        display: inline;  
+    }
+
+}
