@@ -5,10 +5,84 @@ html {
 }
    
 body{
-    background-color: #333333;
-    color: #ffffff;
+    background-color: #999999;
+    color: #000000;
 }
    
 img {
     margin: auto auto;
+    height: auto;
+    width: 30%;
 }
+
+#metadata {
+    display: grid;
+    grid-template-columns: 30 60;
+    grid-template-rows: repeat(12);   
+}
+
+
+/* Metadata Fields*/
+
+.grid-label{
+    font-weight: bold;
+}
+
+#identifier {
+
+}
+#title{
+
+}
+#date {
+
+}
+#description {
+
+}
+#type {
+
+}
+#format {
+
+}
+#physicalMedium {
+
+}
+#location {
+
+}
+#subject {
+
+}
+#coverage {
+
+}
+#spatial {
+
+}
+#temporal {
+
+}
+#source {
+
+}
+#creator {
+
+}
+#contributor {
+
+}
+#publisher {
+
+}
+#rights {
+
+}
+#source {
+
+}
+#relation{
+
+}
+
