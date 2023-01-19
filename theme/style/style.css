@@ -7,17 +7,21 @@ html {
 body{
     background-color: #999999;
     color: #000000;
+    display: grid;
+    grid-template-columns: 70% 30%;
 }
    
 img {
+    order: 2;
     margin: auto auto;
     height: auto;
-    width: 30%;
+    width: 30%; 
 }
 
 #metadata {
+    order: 1;
     display: grid;
-    grid-template-columns: 30 60;
+    grid-template-columns: repeat(2);
     grid-template-rows: repeat(12);   
 }
 
