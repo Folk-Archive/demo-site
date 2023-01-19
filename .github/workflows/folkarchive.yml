@@ -22,7 +22,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1.0.4
         with:
-          path: artifact.tar
+          path: theme
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
