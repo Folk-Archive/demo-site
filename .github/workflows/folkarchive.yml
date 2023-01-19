@@ -17,6 +17,8 @@ jobs:
         run: |
           ls -la
           du -h theme
+          tar -cvf artifact.tar theme
+          du -h artifact.tar
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1.0.4
         with:
