@@ -13,12 +13,6 @@ jobs:
       - name: Folk Archive
         id: builder
         uses: Folk-Archive/archive-actions@v0.2.1
-      - name: SUPER SIZE ME
-        run: |
-          ls -la
-          du -h theme
-          tar -cvf artifact.tar theme
-          du -h artifact.tar
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1.0.4
         with:
