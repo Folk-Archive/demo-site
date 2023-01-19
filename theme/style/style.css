@@ -7,22 +7,36 @@ html {
 body{
     background-color: #999999;
     color: #000000;
-    display: grid;
-    grid-template-columns: 70% 30%;
+
+    margin: 1% 5% 1% 5%;
+
+}
+
+h3 {
+    text-decoration-line: underline;
 }
    
 img {
-    /*order: 2;*/
+    order: 2;
     margin: auto auto;
     height: auto;
     width: 30%; 
 }
 
 #metadata {
-    /*order: 1;*/
+    order: 1;
     display: grid;
-    grid-template-columns: repeat(2);
-    grid-template-rows: repeat(12);   
+    grid-template-columns: 60% 30%;
+    grid-gap: 10px;
+    
+}
+
+.items{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: #c4c2c2;
+    border: 1px solid;
+    grid-gap: 0;
 }
 
 
@@ -30,77 +44,26 @@ img {
 
 .grid-label{
     font-weight: bold;
-}
-/*
-#identifier {
-
-}
-#title{
-
-}
-#date {
-
-}
-#description {
-
-}
-#type {
-
-}
-#format {
-
-}
-#physicalMedium {
-
-}
-#location {
-
-}
-#subject {
-
-}
-#coverage {
-
-}
-#spatial {
-
-}
-#temporal {
-
-}
-#source {
-
-}
-#creator {
-
-}
-#contributor {
-
-}
-#publisher {
-
-}
-#rights {
-
-}
-#source {
-
-}
-#relation{
-
+    margin: 0px;
+    padding: 10px;
+    border: 1px solid #000000;
 }
 
-
+.items > p {
+    margin: 0px;
+    padding: 10px;   
+    border: 1px solid #000000; 
+}
 
 /* Footer */
-/*
+
 footer {
-    align-items: right;
+    text-align: right;
 }
 
 
 /* Create media query */
-/*
+
 @media only screen and (max-width: 1024px) {
 
     body {
@@ -108,4 +71,3 @@ footer {
     }
 
 }
-*/
