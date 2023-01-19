@@ -20,7 +20,7 @@ img {
     order: 2;
     margin: auto auto;
     height: auto;
-    width: 30%; 
+    width: 100%; 
 }
 
 #metadata {
@@ -66,8 +66,13 @@ footer {
 
 @media only screen and (max-width: 1024px) {
 
-    body {
-        display: inline;  
+    img {
+        order: 1;
+    }
+
+    .items {
+        order: 2;
+        display: block;
     }
 
 }
