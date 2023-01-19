@@ -12,14 +12,14 @@ body{
 }
    
 img {
-    order: 2;
+    /*order: 2;*/
     margin: auto auto;
     height: auto;
     width: 30%; 
 }
 
 #metadata {
-    order: 1;
+    /*order: 1;*/
     display: grid;
     grid-template-columns: repeat(2);
     grid-template-rows: repeat(12);   
@@ -31,7 +31,7 @@ img {
 .grid-label{
     font-weight: bold;
 }
-
+/*
 #identifier {
 
 }
@@ -93,14 +93,14 @@ img {
 
 
 /* Footer */
-
+/*
 footer {
     align-items: right;
 }
 
 
 /* Create media query */
-
+/*
 @media only screen and (max-width: 1024px) {
 
     body {
@@ -108,3 +108,4 @@ footer {
     }
 
 }
+*/
